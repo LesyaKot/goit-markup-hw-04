@@ -355,6 +355,7 @@ header .a {
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-menu .portfolio.menu.item {
   width: calc((100% - 48px) / 3);
@@ -371,6 +372,7 @@ header .a {
 .overlay-wrapper {
   position: relative;
   overflow: hidden;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-image{
   transform: translateY(0%);
